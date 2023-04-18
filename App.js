@@ -21,8 +21,8 @@ export default function App() {
         <Route path="tattooartists" element={<TattooArtists />}/>
       </Route> 
       </Routes>
+      <Footer/>
     </BrowserRouter>
-    <Footer/>
     </>
   );
 }
