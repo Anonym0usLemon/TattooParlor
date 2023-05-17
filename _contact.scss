@@ -94,21 +94,21 @@ $Oswald: 'Oswald';
                 padding-block: 5vw;
             }
 
-            #Name, #Email, #Phone, #Message {
+            #Name, #Email, #Phone, #Msg {
                 width: 100%;
                 padding: 12px 20px;
                 margin-bottom: 20px;
                 border: 1px solid #ccc;
             }
 
-            #Name-error, #Email-error, #Phone-error, #Message-error {
+            #Name-error, #Email-error, #Phone-error, #Msg-error {
                 color: red;
                 font-size: 12px;
                 position: relative;
                 top: -25px;
             }
 
-            #Message {
+            #Msg {
                 height: 110px;
                 max-height: 500px;
                 max-width: 100%;
