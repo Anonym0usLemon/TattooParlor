@@ -1,0 +1,56 @@
+/****************************************************************************************
+* Author: Dominic DiModugno
+* Date: March 15th, 2023
+
+visit localhost/find/error/error to find the page on localhost 
+*/
+
+$Orange: #b46124; 
+$Merriweather: 'Merriweather'; 
+$Oswald: 'Oswald';
+
+.error-content {
+    padding-block: 20px;
+    background-color: rgba(0,0,0,0.9);
+    margin-top: -10px;
+
+    @media only screen and (max-width: 1000px) {
+        padding-inline: 50px;
+    }
+
+    h1 {
+        color: $Orange;
+        font-family: $Oswald;
+        font-size: 53px;
+
+        @media only screen and (max-width: 1000px) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        color: white;
+        font-size: 15px
+    }
+
+    ul {
+        color: white;
+        padding-left: 50px;
+
+        @media only screen and (max-width: 500px) {
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+    }
+
+    a {
+        color: $Orange;
+    }
+
+    hr {
+        margin-bottom: 15px;
+    }
+}
